@@ -1,0 +1,25 @@
+body {
+    --loader-inactive: #888;
+    --loader-ative: #0f8;
+
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.loader .circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: var(--loader-inactive);
+}
